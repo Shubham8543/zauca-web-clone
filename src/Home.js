@@ -15,38 +15,27 @@ import Things from "./Screen/Things";
 import Blog from "./Screen/Blog";
 import Website from "./Screen/Website";
 import Contect from "./Screen/Contect";
-import Home from "./Home";
-import { Main } from "./Main";
-import Navbar from "./Screen/supportDashboard/Navbar";
 
-const App = () => {
+const Home = () => {
   return (
-    <>
-    
-    
     <ChakraProvider>
-     
-      
- <Main/>
-
-
-
-
-
-
+      <Header />
+      <MenuBar />
+      <Body />
+      <Body2 />
+      <Business />
+      <Ecommerce />
+      <Portfolio /> // issue//
+      <Startup />  // issue//
+      <Gst />
+      <About />
+      <Things /> issue//
+      <Blog/>
+      <Website/>
+      <Contect/>
+      <Footer />
     </ChakraProvider>
-    
-    </>
-      
-
-
-
-
-
-
-    
-
   );
 };
 
-export default App;
+export default Home;
